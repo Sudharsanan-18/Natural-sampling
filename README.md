@@ -1,8 +1,8 @@
 # Natural-Sampling
-Aim:
+# Aim:
 To perform Natural Sampling of a continuous-time message signal using a pulse train and reconstruct the signal using a low-pass filter.
 
-Tools required :
+# Tools required :
 
 Python (Version 3.x)
 
@@ -12,8 +12,8 @@ Matplotlib Library (for plotting the waveforms)
 
 Scipy Library (for signal processing, including filtering)
 
-Program :
-
+# Program :
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -78,11 +78,13 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+```
 
-Output Waveform :
+# Output Waveform :
 ![image](https://github.com/user-attachments/assets/72fa932b-df9d-48ea-9b66-95fa89a408a9)
 
-Results:
+# Results:
+
 1.Original Message Signal:
 A 5 Hz sine wave is generated as the input message signal.
 
